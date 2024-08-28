@@ -1,0 +1,19 @@
+#Ejemplo de código JavaScript para manipular el DOM
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Manipulación del DOM</title>
+</head>
+<body>
+    <h1 id="titulo">¡Hola, Mundo!</h1>
+    <button onclick="cambiarTexto()">Cambiar texto</button>
+
+    <script>
+        function cambiarTexto() {
+            document.getElementById("titulo").textContent = "¡Texto cambiado!";
+        }
+    </script>
+</body>
+</html>
