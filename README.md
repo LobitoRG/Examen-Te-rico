@@ -13,3 +13,22 @@
     <p>Esta es una página web básica usando HTML y CSS.</p>
 </body>
 </html>
+
+
+#css
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+p {
+    color: #666;
+    font-size: 18px;
+}
